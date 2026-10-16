@@ -3,16 +3,17 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-white to-purple-100 p-6">
-      <div className="w-full max-w-lg rounded-2xl border border-white bg-white p-10 text-center shadow-xl">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
+      <div className="w-full max-w-md rounded-2xl border border-white bg-white p-10 text-center shadow-xl">
         <div className="mb-4 text-5xl">🚀</div>
 
         <h1 className="mb-4 text-4xl font-bold tracking-tight text-blue-700">
           Hello World!
         </h1>
 
-        <p className="mb-8 text-lg leading-7 text-gray-600">
+        <p className="mb-6 text-base leading-7 text-gray-600">
           Welcome to my Frontend Internship Project.
+          <br />
           I am learning React, Tailwind CSS and shadcn UI.
         </p>
 
@@ -23,7 +24,7 @@ function App() {
           Get Started
         </Button>
 
-        <p className="mt-6 text-sm text-gray-400">
+        <p className="mt-6 text-sm text-gray-500">
           Built with React + Vite + Tailwind CSS
         </p>
       </div>
